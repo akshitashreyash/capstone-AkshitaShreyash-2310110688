@@ -1,71 +1,36 @@
-Template for creating and submitting MAT496 capstone project.
-
-# Overview of MAT496
-
-In this course, we have primarily learned Langgraph. This is helpful tool to build apps which can process unstructured `text`, find information we are looking for, and present the format we choose. Some specific topics we have covered are:
-
-- Prompting
-- Structured Output 
-- Semantic Search
-- Retreaval Augmented Generation (RAG)
-- Tool calling LLMs & MCP
-- Langgraph: State, Nodes, Graph
-
-We also learned that Langsmith is a nice tool for debugging Langgraph codes.
-
-------
-
-# Capstone Project objective
-
-The first purpose of the capstone project is to give a chance to revise all the major above listed topics. The second purpose of the capstone is to show your creativity. Think about all the problems which you can not have solved earlier, but are not possible to solve with the concepts learned in this course. For example, We can use LLM to analyse all kinds of news: sports news, financial news, political news. Another example, we can use LLMs to build a legal assistant. Pretty much anything which requires lots of reading, can be outsourced to LLMs. Let your imagination run free.
-
-
--------------------------
-
-# Project report Template
-
-## Title: [your title goes here]
+# Title: QUESTION BANK GENERATOR 
 
 ## Overview
 
-[your overview goes here. My project does this that  etc]
-
+This repository converts lecture notes (PDF, PPTX, TXT) into a high-quality, structured question bank. Outputs include multiple-choice questions (MCQs), short-answer questions, and concept-check items. Each question includes source excerpt and location, difficulty level, topic tags, and an answer explanation. The system emphasizes reproducibility, low error rate, and demonstrable use of course concepts: Prompting, Structured Output, Semantic Search, RAG, Langgraph (nodes & state), and Langsmith instrumentation for debugging.
 ## Reason for picking up this project
 
-Expain how this project is aligned with this course content.
 
 ## Plan
 
-I plan to excecute these steps to complete my project.
+I plan to execute these steps to complete my project.
 
-- [TODO] Step 1 involves blah blah
-- [TODO] Step 2 involves blah blah
-- [TODO] Step 3 involves blah blah
-- ...
-- [TODO] Step n involves blah blah
+[TODO] Step 1: Ingest and clean lecture notes (PDF/PPTX/TXT) into standard .txt format.
+
+[TODO] Step 2: Chunk text and generate embeddings for semantic retrieval.
+
+[TODO] Step 3: Build FAISS index and test semantic search.
+
+[TODO] Step 4: Create prompt templates and JSON schemas for MCQs and SAQs.
+
+[TODO] Step 5: Build LangGraph pipeline (retriever → generator → evaluator).
+
+[TODO] Step 6: Add evaluation node for confidence scoring and error-flagging.
+
+[TODO] Step 7: Export results to CSV/JSON/Anki format using tool-calling.
+
+[TODO] Step 8: Build the final demo notebook combining the entire pipeline.
+
+[TODO] Step 9: Test thoroughly, debug using LangSmith, and write conclusion.
 
 ## Conclusion:
 
-I had planned to achieve {this this}. I think I have/have-not achieved the conclusion satisfactorily. The reason for your satisfaction/unsatisfaction.
+I had planned to build a full pipeline that converts lecture notes into a structured question bank using retrieval and LangGraph.
 
 ----------
-
-# Added instructions:
-
-- This is a `solo assignment`. Each of you will work alone. You are free to talk, discuss with chatgpt, but you are responsible for what you submit. Some students may be called for viva. You should be able to each and every line of work submitted by you.
-
-- `commit` History maintenance.
-  - Fork this respository and build on top of that.
-  - For every step in your plan, there has to be a commit.
-  - Change [TODO] to [DONE] in the plan, before you commit after that step. 
-  - The commit history should show decent amount of work spread into minimum two dates. 
-  - **All the commits done in one day will be rejected**. Even if you are capable of doing the whole thing in one day, refine it in two days.  
- 
- - Deadline: Nov 30, Sunday 11:59 pm
-
-
-# Grading: total 25 marks
-
-- Coverage of most of topics in this class: 20
-- Creativity: 5
   
