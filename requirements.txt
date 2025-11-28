@@ -1,0 +1,11 @@
+langchain 
+openai 
+requests 
+python-dotenv 
+pandas 
+sentence-transformers 
+faiss-cpu 
+pdfplumber 
+python-pptx 
+tqdm 
+genanki 
