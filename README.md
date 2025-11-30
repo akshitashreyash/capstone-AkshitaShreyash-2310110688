@@ -10,7 +10,7 @@ This repository converts lecture notes (PDF, PPTX, TXT) into a high-quality, str
 
 I plan to execute these steps to complete my project.
 
-[TODO] Step 1: Ingest and clean lecture notes (PDF/PPTX/TXT) into standard .txt format.
+[DONE] Step 1: Ingest and clean lecture notes (PDF/PPTX/TXT) into standard .txt format.
 
 [TODO] Step 2: Chunk text and generate embeddings for semantic retrieval.
 
