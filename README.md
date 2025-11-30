@@ -20,9 +20,9 @@ I plan to execute these steps to complete my project.
 
 [DONE] Step 3: Create prompts which will make the model familar with types of questions - MCQs, small questions, explain concepts in short. 
 
-[DONE] Step 4: Execute langgraph pipeline that takes chunks and construct MCQ prompts similar to step 3. 
+[DONE] Step 4: Execute langgraph pipeline that takes chunks and construct MCQ prompts similar to step 3 (retriever → generator → evaluator). 
 
-[TODO] Step 5: Build LangGraph pipeline (retriever → generator → evaluator).
+[DONE] Step 5: define reusable tools for semantic search and topic inspection over lecture chunks, a tool-calling wrapper function that returns context chunks ready to be consumed by your LangGraph question-generation workflow.
 
 [TODO] Step 6: Add evaluation node for confidence scoring and error-flagging.
 
