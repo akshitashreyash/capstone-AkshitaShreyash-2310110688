@@ -20,7 +20,7 @@ I plan to execute these steps to complete my project.
 
 [DONE] Step 3: Create prompts which will make the model familar with types of questions - MCQs, small questions, explain concepts in short. 
 
-[TODO] Step 4: Create prompt templates and JSON schemas for MCQs and SAQs.
+[DONE] Step 4: Execute langgraph pipeline that takes chunks and construct MCQ prompts similar to step 3. 
 
 [TODO] Step 5: Build LangGraph pipeline (retriever → generator → evaluator).
 
