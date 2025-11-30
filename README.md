@@ -12,7 +12,7 @@ I plan to execute these steps to complete my project.
 
 [DONE] Step 1: Ingest and clean lecture notes (PDF/PPTX/TXT) into standard .txt format.
 
-[TODO] Step 2: Chunk text and generate embeddings for semantic retrieval.
+[DONE] Step 2: Chunk text and generate embeddings for semantic retrieval.
 
 [TODO] Step 3: Build FAISS index and test semantic search.
 
