@@ -26,9 +26,9 @@ I plan to execute these steps to complete my project.
 
 [DONE] Step 6: load the generated MCQs from CSV. Save both full evaluation results and a clean subset for further use
 
-[DONE] Step 7: Export results to CSV/JSON/Anki format using tool-calling. Use an app called Anki, a free flashcard generating app.
+[DONE] Step 7: Export results to CSV/JSON/Anki format using tool-calling. Use the app called Anki, a free flashcard generating app.
 
-[TODO] Step 8: Build the final demo notebook combining the entire pipeline.
+[DONE] Step 8:  runs the LangGraph question-generation pipeline end‑to‑end for chosen topics, saves the resulting MCQs to CSV.
 
 [TODO] Step 9: Test thoroughly, debug using LangSmith, and write conclusion.
 
