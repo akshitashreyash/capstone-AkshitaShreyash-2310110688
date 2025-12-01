@@ -7,7 +7,7 @@ This repository converts lecture notes (PDF, PPTX, TXT) into a high-quality, str
 
 I have picked this project because it shows a lot of the functions of langchain and langgraph that we have learnt the course. A lot of codes run in this project are to double-check that all of my logistics are in order. Although, this reflects on my right-now novice skills, they only contribute to elaborating the project even further. Following are the skills which have been implemented in the project:
 
-* xyz
+* 
 
 
 ## Plan
@@ -30,11 +30,11 @@ I plan to execute these steps to complete my project.
 
 [DONE] Step 8:  runs the LangGraph question-generation pipeline end‑to‑end for chosen topics, saves the resulting MCQs to CSV.
 
-[TODO] Step 9: Test thoroughly, debug using LangSmith, and write conclusion.
+[DONE] Step 9: Test thoroughly and create a tester example in working condition which will replace dummy questions (placeholders) with real questions.
 
 ## Conclusion:
 
-I had planned to build a full pipeline that converts lecture notes into a structured question bank using retrieval and LangGraph.
+I had planned to build a full pipeline that converts lecture notes into a structured question bank. Once the code is run, a cvs file gets generated and produces an EXCEL file which contains the output ie the questions What my project does is take in lecture notes in pdf form, breaks them into chunks and then picks up the relevant information which the perplexity model then uses to formulate questions. I am satisfied with the project as it delivers the aim behind the project. With a little refurbishing, it can be turned into a highly useful application which is helpful in the day to day life of students. 
 
 ----------
   
