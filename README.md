@@ -14,7 +14,7 @@ I have picked this project because it shows a lot of the functions of langchain 
 4. **TOOL CALLING**: Wrapped semantic search and helper functions as “tools” that a future LLM agent could call step‑by‑step instead of doing everything in one prompt.
 5. **LANGGRAPH**: Used QGenState(task of holding everything while the code runs) and also built nodes (retrieve, build_prompt, llm_call, validate) wired in a StateGraph so question generation becomes a clear pipeline with explicit state updates and conditional edges.
 
-**VIDEO SUMMARY LINK**: 
+**VIDEO SUMMARY LINK**: [https://drive.google.com/file/d/10-iwZB73rE-XQ08zQky52Dn_CdjQdDxQ/view?usp=sharing]
 
 
 ## Plan
